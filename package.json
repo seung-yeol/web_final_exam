@@ -1,0 +1,35 @@
+{
+  "name": "synote",
+  "version": "1.0.0",
+  "description": "기말고사 과제입니다.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp:js": "gulp js",
+    "gulp:css": "gulp css",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seung-yeol/web_final_exam.git"
+  },
+  "author": "오승열",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seung-yeol/web_final_exam/issues"
+  },
+  "homepage": "https://github.com/seung-yeol/web_final_exam#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "file-saver": "^1.3.3",
+    "gulp-concat": "^2.6.1",
+    "screenfull": "^3.3.2"
+  }
+}
