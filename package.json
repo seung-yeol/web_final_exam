@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp:js": "gulp js",
-    "gulp:css": "gulp css",
+    "gulp:css": "gulp css"
   },
   "repository": {
     "type": "git",
